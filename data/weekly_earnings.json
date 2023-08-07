@@ -1,0 +1,961 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "gjxb-ck3u",
+      "name" : "Average Weekly Earnings",
+      "attribution" : "Statistics Canada",
+      "attributionLink" : "http://www5.statcan.gc.ca/cansim/a26?lang=eng&retrLang=eng&id=2810026&paSer=&pattern=&stByVal=1&p1=1&p2=-1&tabMode=dataTable&csid=",
+      "averageRating" : 0,
+      "createdAt" : 1391094794,
+      "description" : "Average weekly earnings are derived by dividing total weekly earnings (including overtime earnings) by the number of employees. This data is compiled from the Survey of Employment, Payrolls and Hours which is a business census of non-farm payroll employees.",
+      "displayType" : "table",
+      "downloadCount" : 569,
+      "indexUpdatedAt" : 1435600866,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 7258663,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1391795164,
+      "publicationGroup" : 1460088,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1435599444,
+      "rowsUpdatedBy" : "us8s-63ci",
+      "state" : "normal",
+      "tableId" : 1460088,
+      "totalTimesRated" : 0,
+      "viewCount" : 366766,
+      "viewLastModified" : 1392925564,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 131248874,
+        "name" : "When",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "when",
+        "position" : 1,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 17874417,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "2001-01-01T00:00:00",
+          "null" : 0,
+          "largest" : "2015-04-01T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2014-09-01T00:00:00"
+          }, {
+            "count" : 19,
+            "item" : "2014-10-01T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2014-11-01T00:00:00"
+          }, {
+            "count" : 17,
+            "item" : "2014-12-01T00:00:00"
+          }, {
+            "count" : 16,
+            "item" : "2015-01-01T00:00:00"
+          }, {
+            "count" : 15,
+            "item" : "2015-02-01T00:00:00"
+          }, {
+            "count" : 14,
+            "item" : "2015-03-01T00:00:00"
+          }, {
+            "count" : 13,
+            "item" : "2015-04-01T00:00:00"
+          } ]
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 131248875,
+        "name" : "NAICS",
+        "dataTypeName" : "text",
+        "fieldName" : "naics",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 17874418,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "Industrial aggregate excluding unclassified businesses",
+          "null" : 0,
+          "largest" : "Industrial aggregate excluding unclassified businesses",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Industrial aggregate excluding unclassified businesses"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 131248876,
+        "name" : "Alberta",
+        "dataTypeName" : "number",
+        "fieldName" : "alberta",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874419,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "664.45",
+          "sum" : "154961.85",
+          "null" : 0,
+          "average" : "900.9409883720930",
+          "largest" : "1176.32",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1159.89"
+          }, {
+            "count" : 19,
+            "item" : "1163.69"
+          }, {
+            "count" : 18,
+            "item" : "1160.77"
+          }, {
+            "count" : 17,
+            "item" : "1159.60"
+          }, {
+            "count" : 16,
+            "item" : "1158.79"
+          }, {
+            "count" : 15,
+            "item" : "1176.32"
+          }, {
+            "count" : 14,
+            "item" : "1173.23"
+          }, {
+            "count" : 13,
+            "item" : "1150.61"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248877,
+        "name" : "BritishColumbia",
+        "dataTypeName" : "number",
+        "fieldName" : "britishcolumbia",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874420,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "653.23",
+          "sum" : "133555.31",
+          "null" : 0,
+          "average" : "776.4843604651163",
+          "largest" : "919.20",
+          "top" : [ {
+            "count" : 20,
+            "item" : "896.29"
+          }, {
+            "count" : 19,
+            "item" : "901.86"
+          }, {
+            "count" : 18,
+            "item" : "902.69"
+          }, {
+            "count" : 17,
+            "item" : "904.11"
+          }, {
+            "count" : 16,
+            "item" : "911.57"
+          }, {
+            "count" : 15,
+            "item" : "919.20"
+          }, {
+            "count" : 14,
+            "item" : "911.73"
+          }, {
+            "count" : 13,
+            "item" : "899.15"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248878,
+        "name" : "Canada",
+        "dataTypeName" : "number",
+        "fieldName" : "canada",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874421,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "650.02",
+          "sum" : "137122.90",
+          "null" : 0,
+          "average" : "797.2261627906977",
+          "largest" : "957.80",
+          "top" : [ {
+            "count" : 20,
+            "item" : "934.74"
+          }, {
+            "count" : 19,
+            "item" : "940.68"
+          }, {
+            "count" : 18,
+            "item" : "937.83"
+          }, {
+            "count" : 17,
+            "item" : "948.40"
+          }, {
+            "count" : 16,
+            "item" : "944.98"
+          }, {
+            "count" : 15,
+            "item" : "957.80"
+          }, {
+            "count" : 14,
+            "item" : "956.50"
+          }, {
+            "count" : 13,
+            "item" : "954.70"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248879,
+        "name" : "Manitoba",
+        "dataTypeName" : "number",
+        "fieldName" : "manitoba",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874422,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "571.84",
+          "sum" : "124970.50",
+          "null" : 0,
+          "average" : "726.5726744186047",
+          "largest" : "886.94",
+          "top" : [ {
+            "count" : 20,
+            "item" : "869.33"
+          }, {
+            "count" : 19,
+            "item" : "872.41"
+          }, {
+            "count" : 18,
+            "item" : "862.07"
+          }, {
+            "count" : 17,
+            "item" : "886.94"
+          }, {
+            "count" : 16,
+            "item" : "875.17"
+          }, {
+            "count" : 15,
+            "item" : "873.35"
+          }, {
+            "count" : 14,
+            "item" : "865.29"
+          }, {
+            "count" : 13,
+            "item" : "864.69"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248880,
+        "name" : "NewBrunswick",
+        "dataTypeName" : "number",
+        "fieldName" : "newbrunswick",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874423,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "578.44",
+          "sum" : "122782.43",
+          "null" : 0,
+          "average" : "713.8513372093023",
+          "largest" : "864.81",
+          "top" : [ {
+            "count" : 20,
+            "item" : "836.43"
+          }, {
+            "count" : 19,
+            "item" : "838.49"
+          }, {
+            "count" : 18,
+            "item" : "838.71"
+          }, {
+            "count" : 17,
+            "item" : "856.35"
+          }, {
+            "count" : 16,
+            "item" : "842.03"
+          }, {
+            "count" : 15,
+            "item" : "854.39"
+          }, {
+            "count" : 14,
+            "item" : "848.22"
+          }, {
+            "count" : 13,
+            "item" : "864.81"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248881,
+        "name" : "NewfoundlandAndLabrador",
+        "dataTypeName" : "number",
+        "fieldName" : "newfoundlandandlabrador",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874424,
+        "width" : 376,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "585.27",
+          "sum" : "133323.97",
+          "null" : 0,
+          "average" : "775.1393604651163",
+          "largest" : "1022.75",
+          "top" : [ {
+            "count" : 20,
+            "item" : "997.27"
+          }, {
+            "count" : 19,
+            "item" : "1001.57"
+          }, {
+            "count" : 18,
+            "item" : "1007.37"
+          }, {
+            "count" : 17,
+            "item" : "1006.98"
+          }, {
+            "count" : 16,
+            "item" : "1007.20"
+          }, {
+            "count" : 15,
+            "item" : "1015.85"
+          }, {
+            "count" : 14,
+            "item" : "1022.75"
+          }, {
+            "count" : 13,
+            "item" : "1019.61"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248882,
+        "name" : "NovaScotia",
+        "dataTypeName" : "number",
+        "fieldName" : "novascotia",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874425,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "567.96",
+          "sum" : "120969.54",
+          "null" : 0,
+          "average" : "703.3112790697674",
+          "largest" : "836.76",
+          "top" : [ {
+            "count" : 20,
+            "item" : "811.21"
+          }, {
+            "count" : 19,
+            "item" : "820.12"
+          }, {
+            "count" : 18,
+            "item" : "816.48"
+          }, {
+            "count" : 17,
+            "item" : "836.76"
+          }, {
+            "count" : 16,
+            "item" : "830.52"
+          }, {
+            "count" : 15,
+            "item" : "829.09"
+          }, {
+            "count" : 14,
+            "item" : "823.01"
+          }, {
+            "count" : 13,
+            "item" : "835.31"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248883,
+        "name" : "Ontario",
+        "dataTypeName" : "number",
+        "fieldName" : "ontario",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874426,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "688.27",
+          "sum" : "141783.66",
+          "null" : 0,
+          "average" : "824.3236046511628",
+          "largest" : "969.17",
+          "top" : [ {
+            "count" : 20,
+            "item" : "935.30"
+          }, {
+            "count" : 19,
+            "item" : "936.71"
+          }, {
+            "count" : 18,
+            "item" : "938.67"
+          }, {
+            "count" : 17,
+            "item" : "950.38"
+          }, {
+            "count" : 16,
+            "item" : "951.10"
+          }, {
+            "count" : 15,
+            "item" : "969.17"
+          }, {
+            "count" : 14,
+            "item" : "968.75"
+          }, {
+            "count" : 13,
+            "item" : "964.80"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248884,
+        "name" : "PrinceEdwardIsland",
+        "dataTypeName" : "number",
+        "fieldName" : "princeedwardisland",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874427,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "509.55",
+          "sum" : "113128.15",
+          "null" : 0,
+          "average" : "657.7218023255814",
+          "largest" : "809.92",
+          "top" : [ {
+            "count" : 20,
+            "item" : "757.86"
+          }, {
+            "count" : 19,
+            "item" : "774.24"
+          }, {
+            "count" : 18,
+            "item" : "782.53"
+          }, {
+            "count" : 17,
+            "item" : "803.66"
+          }, {
+            "count" : 16,
+            "item" : "794.39"
+          }, {
+            "count" : 15,
+            "item" : "792.26"
+          }, {
+            "count" : 14,
+            "item" : "800.10"
+          }, {
+            "count" : 13,
+            "item" : "809.92"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248885,
+        "name" : "Quebec",
+        "dataTypeName" : "number",
+        "fieldName" : "quebec",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874428,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "618.90",
+          "sum" : "127414.77",
+          "null" : 0,
+          "average" : "740.7835465116279",
+          "largest" : "881.27",
+          "top" : [ {
+            "count" : 20,
+            "item" : "842.92"
+          }, {
+            "count" : 19,
+            "item" : "858.82"
+          }, {
+            "count" : 18,
+            "item" : "844.51"
+          }, {
+            "count" : 17,
+            "item" : "862.12"
+          }, {
+            "count" : 16,
+            "item" : "846.73"
+          }, {
+            "count" : 15,
+            "item" : "857.53"
+          }, {
+            "count" : 14,
+            "item" : "861.10"
+          }, {
+            "count" : 13,
+            "item" : "881.27"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 131248886,
+        "name" : "Saskatchewan",
+        "dataTypeName" : "number",
+        "fieldName" : "saskatchewan",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 17874429,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 172,
+          "smallest" : "587.41",
+          "sum" : "133112.72",
+          "null" : 0,
+          "average" : "773.9111627906977",
+          "largest" : "992.31",
+          "top" : [ {
+            "count" : 20,
+            "item" : "979.19"
+          }, {
+            "count" : 19,
+            "item" : "984.95"
+          }, {
+            "count" : 18,
+            "item" : "992.31"
+          }, {
+            "count" : 17,
+            "item" : "991.30"
+          }, {
+            "count" : 16,
+            "item" : "982.60"
+          }, {
+            "count" : 15,
+            "item" : "991.21"
+          }, {
+            "count" : 14,
+            "item" : "988.79"
+          }, {
+            "count" : 13,
+            "item" : "977.35"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "precision" : "2",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "API & Download Information" : {
+            "Available Download Formats" : "CSV, JSON, PDF, RDF, RSS, XLS, XLSX, XML",
+            "API Access Endpoint" : "http://data.iae.alberta.ca/resource/gjxb-ck3u.json",
+            "Dataset API Format" : "SODA"
+          },
+          "Creator Information" : {
+            "Creator Website URL" : "http://www.statcan.gc.ca/start-debut-eng.html",
+            "Creator Phone Number" : "1-800-263-1136",
+            "Creator Email" : "infostats@statcan.gc.ca"
+          },
+          "Dataset Information" : {
+            "Sensitivity" : "Unrestricted",
+            "Secondary Data Provided By" : "",
+            "Attribution Source" : "Adapted from Statistics Canada, Cansim table 281-0026, This does not constitute an endorsement by Statistics Canada of this product.",
+            "Alternate Title" : "Average Weekly Earnings",
+            "DatasetId" : "gjxb-ck3u",
+            "Language" : "en-ca",
+            "Frequency" : "Monthly",
+            "Secondary Source Link" : "",
+            "Time Coverage" : "since Jan 1991"
+          },
+          "Publisher Information" : {
+            "Publisher Phone Number" : "780-415-4880",
+            "Publisher Website URL" : "http://iae.alberta.ca",
+            "Publisher Email" : "michael.parkatti@gov.ab.ca"
+          },
+          "Usage" : {
+            "Usage Consideration" : "See attachment for usage"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "when"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "q0xKwd5SdcbrI_921oszuHshnMeQLuwtjtYEfg7emC8",
+          "blobId" : "",
+          "name" : "Usage Considerations - Average Weekly Earnings.pdf",
+          "filename" : "Usage Considerations - Average Weekly Earnings.pdf"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "us8s-63ci",
+        "displayName" : "Government of Alberta",
+        "roleName" : "administrator",
+        "screenName" : "Government of Alberta",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 131248874,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 131248874,
+        "flags" : [ "asc" ]
+      } ],
+      "tableAuthor" : {
+        "id" : "us8s-63ci",
+        "displayName" : "Government of Alberta",
+        "roleName" : "administrator",
+        "screenName" : "Government of Alberta",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "average weekly earnings", "average earnings", "employment", "labour & immigration" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 5554, "8D0D0120-53D5-4A3D-B68F-D5BAFA1B9F24", 5554, 1435599444, "710753", 1435599444, "710753", null, "2001-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "670.54", "660.48", "658.02", "578.95", "584.75", "594.00", "571.28", "698.57", "535.65", "624.81", "596.53" ]
+, [ 5555, "B8156EED-2420-4B71-A56C-57DED1FA7CEC", 5555, 1435599444, "710753", 1435599444, "710753", null, "2001-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "670.52", "659.33", "655.79", "580.63", "585.11", "591.92", "570.06", "693.69", "532.02", "623.93", "595.09" ]
+, [ 5556, "A8D7795E-40FA-4923-AB52-CA8536DAAD7A", 5556, 1435599444, "710753", 1435599444, "710753", null, "2001-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "668.49", "654.07", "655.88", "578.67", "584.13", "593.47", "570.70", "697.08", "534.71", "622.94", "589.09" ]
+, [ 5557, "8373DAD3-2886-4DAD-AFE8-84DB8C0F414E", 5557, 1435599444, "710753", 1435599444, "710753", null, "2001-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "671.71", "657.15", "654.09", "576.36", "580.92", "591.96", "568.70", "693.73", "522.50", "619.12", "589.37" ]
+, [ 5558, "05DB3E97-35EC-4F75-891B-3F6C696CDEE0", 5558, 1435599444, "710753", 1435599444, "710753", null, "2001-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "664.45", "653.23", "650.02", "571.84", "578.44", "588.19", "567.96", "688.27", "522.31", "618.90", "587.41" ]
+, [ 5559, "9F6DC880-A4F1-4149-A43F-23E9E9BF2270", 5559, 1435599444, "710753", 1435599444, "710753", null, "2001-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "675.72", "661.49", "658.06", "588.66", "582.79", "591.85", "576.42", "697.37", "529.47", "623.50", "597.65" ]
+, [ 5560, "0F6988BE-1D70-4546-A854-15C677B99316", 5560, 1435599444, "710753", 1435599444, "710753", null, "2001-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "672.96", "655.63", "655.38", "586.31", "580.57", "590.91", "576.16", "696.65", "509.55", "619.98", "590.31" ]
+, [ 5561, "6BE8C5BD-E455-4573-A299-F41CC57DB7DB", 5561, 1435599444, "710753", 1435599444, "710753", null, "2001-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "673.60", "653.55", "655.54", "592.32", "602.85", "593.53", "579.54", "691.09", "534.47", "625.05", "598.63" ]
+, [ 5562, "9C61FF04-EA5F-4548-9E21-BA4F29B1E325", 5562, 1435599444, "710753", 1435599444, "710753", null, "2001-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "692.18", "659.15", "660.50", "587.73", "594.41", "600.95", "576.75", "699.48", "531.89", "622.17", "600.95" ]
+, [ 5563, "2538F70D-9A3D-45F0-A6BE-4A3744AF6372", 5563, 1435599444, "710753", 1435599444, "710753", null, "2001-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "693.13", "664.43", "661.11", "587.39", "595.74", "596.49", "582.77", "697.06", "535.24", "623.80", "603.69" ]
+, [ 5564, "E29C2CFE-AD1B-4F77-A0B9-86970CB6FA88", 5564, 1435599444, "710753", 1435599444, "710753", null, "2001-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "675.80", "655.07", "659.65", "586.56", "598.11", "585.27", "583.15", "701.04", "535.62", "625.83", "590.90" ]
+, [ 5565, "C056C58D-CAAE-409E-A994-D20291F4F053", 5565, 1435599444, "710753", 1435599444, "710753", null, "2001-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "674.09", "658.72", "661.38", "593.03", "602.37", "594.03", "594.16", "697.61", "559.80", "631.09", "605.77" ]
+, [ 5566, "5ADDCDBD-6B8D-483F-A6F3-B4D9E939BC9A", 5566, 1435599444, "710753", 1435599444, "710753", null, "2002-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "683.11", "655.56", "664.21", "589.62", "599.19", "599.19", "591.75", "698.73", "562.60", "638.98", "604.17" ]
+, [ 5567, "DB96E5DC-002A-4F7A-97F2-7066CCC3E645", 5567, 1435599444, "710753", 1435599444, "710753", null, "2002-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "688.54", "665.24", "662.65", "594.31", "596.29", "590.37", "586.60", "699.15", "551.04", "625.51", "599.27" ]
+, [ 5568, "B905BAA7-40B0-4BE3-9F8C-7F0F079053E1", 5568, 1435599444, "710753", 1435599444, "710753", null, "2002-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "692.57", "676.82", "666.93", "597.55", "601.49", "600.05", "589.95", "703.71", "565.53", "625.05", "605.13" ]
+, [ 5569, "C4EA174C-07F7-456C-8EBF-F1B35A88FED7", 5569, 1435599444, "710753", 1435599444, "710753", null, "2002-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "695.96", "679.44", "674.60", "601.36", "604.18", "604.78", "595.20", "711.85", "558.95", "638.81", "611.67" ]
+, [ 5570, "8BEC0293-0E3F-47A0-A977-EDECC9753D76", 5570, 1435599444, "710753", 1435599444, "710753", null, "2002-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "680.85", "666.55", "669.81", "597.94", "603.29", "611.06", "598.47", "706.47", "560.30", "643.68", "598.18" ]
+, [ 5571, "DAA5936E-C5E0-4D99-A5EF-C160D08C8B36", 5571, 1435599444, "710753", 1435599444, "710753", null, "2002-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "693.46", "667.02", "671.76", "602.12", "604.21", "607.08", "601.48", "711.41", "562.65", "637.10", "603.64" ]
+, [ 5572, "91B8E5AD-A97E-4DA4-A877-5726D1D9D4C8", 5572, 1435599444, "710753", 1435599444, "710753", null, "2002-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "694.92", "671.04", "675.49", "607.44", "604.91", "607.55", "604.48", "716.17", "540.74", "640.26", "610.15" ]
+, [ 5573, "45DF1C45-3292-40B5-B92F-61320156A774", 5573, 1435599444, "710753", 1435599444, "710753", null, "2002-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "684.47", "661.43", "668.37", "603.27", "598.43", "604.04", "593.00", "707.61", "541.00", "637.98", "601.88" ]
+, [ 5574, "BB5173E0-B17E-4222-BC6B-D96E73775778", 5574, 1435599444, "710753", 1435599444, "710753", null, "2002-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "696.89", "676.77", "674.85", "604.20", "602.88", "612.71", "591.76", "715.92", "549.76", "635.00", "614.12" ]
+, [ 5575, "7493CEBA-0C87-4701-A24B-09B5126317E0", 5575, 1435599444, "710753", 1435599444, "710753", null, "2002-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "694.75", "666.65", "679.36", "604.21", "614.14", "618.29", "598.80", "718.94", "557.49", "653.22", "610.46" ]
+, [ 5576, "A56D66E0-061C-4310-89F8-65B4C5AA59E5", 5576, 1435599444, "710753", 1435599444, "710753", null, "2002-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "702.92", "682.70", "680.13", "619.95", "609.87", "622.08", "598.29", "719.97", "565.05", "638.40", "619.96" ]
+, [ 5577, "1F70B3FE-BD5F-4367-8FF2-AD08D4FF0EBD", 5577, 1435599444, "710753", 1435599444, "710753", null, "2002-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "704.60", "687.48", "686.19", "624.44", "611.50", "629.78", "609.86", "722.11", "578.68", "652.01", "628.34" ]
+, [ 5578, "504ADB8F-F66F-4CE5-9087-58822450AA6F", 5578, 1435599444, "710753", 1435599444, "710753", null, "2003-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "703.22", "680.11", "681.49", "617.27", "612.60", "624.96", "607.06", "716.52", "575.74", "647.76", "622.08" ]
+, [ 5579, "1DC723E6-5DD8-4320-9214-BEA738BBDABE", 5579, 1435599444, "710753", 1435599444, "710753", null, "2003-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "721.01", "690.65", "690.54", "618.41", "614.48", "636.75", "607.21", "728.11", "575.82", "651.18", "632.02" ]
+, [ 5580, "552A4EDD-F3F2-405F-989F-DFE7F2A8449F", 5580, 1435599444, "710753", 1435599444, "710753", null, "2003-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "708.69", "679.43", "682.94", "613.23", "611.07", "629.32", "605.46", "721.34", "564.34", "645.06", "623.45" ]
+, [ 5581, "D13C3EEB-7B37-4221-9DCB-068C5CB987B2", 5581, 1435599444, "710753", 1435599444, "710753", null, "2003-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "716.16", "685.81", "686.99", "613.37", "615.02", "636.17", "611.04", "723.04", "565.33", "650.32", "631.06" ]
+, [ 5582, "D2EEFC2A-CA63-451C-981D-A2986EAF1CFD", 5582, 1435599444, "710753", 1435599444, "710753", null, "2003-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "697.56", "675.68", "683.63", "609.06", "612.55", "641.92", "613.51", "721.47", "569.65", "655.06", "621.18" ]
+, [ 5583, "E2B19D27-C5F3-4AD1-9646-ABAF887FA6DC", 5583, 1435599444, "710753", 1435599444, "710753", null, "2003-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "717.20", "690.12", "692.58", "619.38", "617.83", "648.53", "614.96", "730.87", "571.59", "656.80", "639.94" ]
+, [ 5584, "26E62F97-42B8-43B7-8645-2A7A9EE68D4C", 5584, 1435599444, "710753", 1435599444, "710753", null, "2003-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "711.94", "672.89", "689.06", "612.14", "620.46", "652.13", "610.28", "725.97", "550.70", "664.96", "624.79" ]
+, [ 5585, "F8957732-B5CB-45D1-8CE4-D4F315CA30F0", 5585, 1435599444, "710753", 1435599444, "710753", null, "2003-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "721.01", "687.68", "690.30", "621.83", "620.38", "650.10", "611.49", "729.97", "558.38", "648.06", "636.91" ]
+, [ 5586, "69A264CA-263A-4F4F-B81D-7CD2E103FAD3", 5586, 1435599444, "710753", 1435599444, "710753", null, "2003-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "734.12", "694.58", "698.22", "625.76", "627.10", "642.94", "610.00", "736.56", "575.64", "658.48", "647.21" ]
+, [ 5587, "67971CB3-E1CC-44F6-9A3A-D632D7407685", 5587, 1435599444, "710753", 1435599444, "710753", null, "2003-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "716.88", "687.63", "696.61", "623.77", "626.28", "629.39", "609.47", "735.77", "573.32", "667.28", "635.79" ]
+, [ 5588, "CAA6FD86-1647-4932-AFAD-D2E064C01D0A", 5588, 1435599444, "710753", 1435599444, "710753", null, "2003-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "732.11", "698.13", "699.90", "623.69", "631.20", "643.69", "610.64", "736.44", "580.70", "663.95", "642.95" ]
+, [ 5589, "5900E84C-32A3-4D3C-AF30-73B301DAFFB7", 5589, 1435599444, "710753", 1435599444, "710753", null, "2003-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "722.90", "687.28", "699.47", "631.05", "623.87", "639.71", "618.84", "736.87", "585.19", "669.42", "645.72" ]
+, [ 5590, "0ECC4723-579C-4A42-BBCF-00D176A74A37", 5590, 1435599444, "710753", 1435599444, "710753", null, "2004-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "730.59", "692.67", "702.75", "632.77", "631.80", "646.17", "615.09", "745.60", "590.41", "661.51", "641.73" ]
+, [ 5591, "119514FC-09E4-4E3C-B678-96F395075B11", 5591, 1435599444, "710753", 1435599444, "710753", null, "2004-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "740.74", "700.11", "705.91", "632.57", "626.71", "654.02", "611.00", "747.62", "576.66", "663.00", "643.18" ]
+, [ 5592, "31091D72-D642-4205-9D0A-7F7D97A6A3FE", 5592, 1435599444, "710753", 1435599444, "710753", null, "2004-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "746.86", "697.32", "705.77", "629.28", "623.13", "656.38", "617.98", "745.37", "580.73", "663.84", "646.91" ]
+, [ 5593, "746BB6AF-E5C1-4322-AD69-5EFA8333E6C0", 5593, 1435599444, "710753", 1435599444, "710753", null, "2004-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "726.46", "689.84", "704.91", "628.24", "621.01", "642.10", "619.96", "748.34", "586.30", "671.42", "635.02" ]
+, [ 5594, "DFDFDA74-2E50-4C02-9C95-4B9C6AE7F3DD", 5594, 1435599444, "710753", 1435599444, "710753", null, "2004-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "735.63", "693.88", "709.16", "633.74", "629.23", "671.62", "630.93", "750.96", "606.63", "672.21", "655.08" ]
+, [ 5595, "236583AE-5A67-4FF6-84B8-D6ADD44A1782", 5595, 1435599444, "710753", 1435599444, "710753", null, "2004-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "731.50", "689.72", "707.28", "633.04", "625.84", "658.03", "627.55", "748.35", "589.09", "676.27", "648.67" ]
+, [ 5596, "4FCFE844-57D7-412B-B2B8-27B35D601D62", 5596, 1435599444, "710753", 1435599444, "710753", null, "2004-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "731.59", "692.59", "706.16", "631.24", "623.59", "660.96", "627.41", "747.80", "570.53", "671.36", "652.82" ]
+, [ 5597, "899EF3DE-AF8A-4C83-922E-EB3C0C881C4C", 5597, 1435599444, "710753", 1435599444, "710753", null, "2004-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "746.79", "699.22", "707.49", "636.22", "621.98", "651.47", "627.45", "745.36", "563.70", "669.03", "656.69" ]
+, [ 5598, "05C176C8-9EB7-449A-B9F0-C4C2BA542FB3", 5598, 1435599444, "710753", 1435599444, "710753", null, "2004-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "743.73", "691.92", "711.68", "635.10", "629.05", "649.74", "627.34", "744.54", "577.92", "693.36", "651.57" ]
+, [ 5599, "DF676A46-A6E3-4C9E-8DCC-D41CBFEAECCA", 5599, 1435599444, "710753", 1435599444, "710753", null, "2004-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "746.81", "706.07", "711.51", "651.13", "632.33", "659.98", "630.28", "750.17", "584.74", "668.87", "662.06" ]
+, [ 5600, "AD24454F-8F8A-4633-B6AA-55A76051144A", 5600, 1435599444, "710753", 1435599444, "710753", null, "2004-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "761.41", "709.57", "716.23", "648.86", "634.31", "656.19", "627.25", "753.11", "593.43", "673.86", "669.35" ]
+, [ 5601, "91381916-9DFC-437A-A656-808B3BE8FB3E", 5601, 1435599444, "710753", 1435599444, "710753", null, "2004-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "747.23", "705.55", "720.44", "647.95", "643.32", "659.31", "643.97", "758.94", "607.09", "688.18", "666.76" ]
+, [ 5602, "E4D94798-2653-4481-A8F9-602F8663799D", 5602, 1435599444, "710753", 1435599444, "710753", null, "2005-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "764.65", "715.99", "725.89", "658.96", "652.63", "672.41", "647.98", "764.64", "604.08", "681.06", "681.22" ]
+, [ 5603, "E4BBDA62-1993-4A60-958E-0279D898C9CB", 5603, 1435599444, "710753", 1435599444, "710753", null, "2005-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "785.75", "726.15", "736.62", "659.63", "654.11", "677.05", "654.51", "776.30", "609.09", "690.69", "680.44" ]
+, [ 5604, "DBB7FC76-6F71-409D-A2A7-95864E9D013C", 5604, 1435599444, "710753", 1435599444, "710753", null, "2005-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "753.61", "701.01", "725.46", "657.92", "649.99", "664.54", "647.21", "763.68", "601.43", "698.83", "660.71" ]
+, [ 5605, "99B7B90A-C5BA-4852-B616-B1374251242E", 5605, 1435599444, "710753", 1435599444, "710753", null, "2005-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "768.57", "723.27", "730.08", "657.87", "650.50", "676.23", "646.68", "773.07", "603.32", "681.96", "669.64" ]
+, [ 5606, "D1DB23DE-8727-4E73-8A3C-40D1DF0C6CEC", 5606, 1435599444, "710753", 1435599444, "710753", null, "2005-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "777.96", "724.58", "732.58", "660.31", "648.88", "681.50", "654.89", "772.70", "599.84", "685.59", "679.13" ]
+, [ 5607, "6E02651B-09B0-48D9-9264-716DA493FC24", 5607, 1435599444, "710753", 1435599444, "710753", null, "2005-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "769.72", "717.59", "737.03", "668.97", "651.25", "681.86", "658.26", "780.19", "596.32", "700.16", "673.19" ]
+, [ 5608, "265649DE-E7B1-47EB-B966-06C6662659C4", 5608, 1435599444, "710753", 1435599444, "710753", null, "2005-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "774.32", "717.79", "732.72", "664.86", "650.55", "687.90", "655.07", "771.46", "594.02", "694.08", "675.98" ]
+, [ 5609, "909D285D-C33F-48EB-9F4A-3FBFD65BDFD3", 5609, 1435599444, "710753", 1435599444, "710753", null, "2005-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "788.82", "721.83", "737.25", "668.22", "650.25", "684.16", "658.37", "775.08", "589.19", "695.62", "685.14" ]
+, [ 5610, "49ECAC21-F25A-4755-81EA-EB3E01A1D206", 5610, 1435599444, "710753", 1435599444, "710753", null, "2005-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "797.72", "732.94", "750.15", "676.45", "662.76", "687.48", "667.95", "789.46", "602.71", "712.43", "685.41" ]
+, [ 5611, "11D7186E-E369-44A8-8D20-5469BD54D28E", 5611, 1435599444, "710753", 1435599444, "710753", null, "2005-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "806.67", "727.07", "745.00", "672.92", "664.33", "694.49", "665.19", "784.10", "605.55", "697.21", "693.74" ]
+, [ 5612, "25E7B8D5-1DCB-41EA-8E4F-D0866784301C", 5612, 1435599444, "710753", 1435599444, "710753", null, "2005-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "813.68", "734.55", "744.12", "669.69", "663.52", "689.05", "664.16", "780.22", "611.13", "692.79", "691.75" ]
+, [ 5613, "74389658-58C1-4225-AC3E-AB5794CA7F4D", 5613, 1435599444, "710753", 1435599444, "710753", null, "2005-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "795.73", "731.04", "744.96", "671.90", "663.38", "689.01", "665.35", "782.10", "625.42", "703.33", "688.49" ]
+, [ 5614, "E2770A54-5AB8-47A4-95A3-F0A447998600", 5614, 1435599444, "710753", 1435599444, "710753", null, "2006-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "809.20", "737.46", "745.92", "675.30", "667.62", "696.36", "670.78", "784.57", "624.49", "688.28", "703.69" ]
+, [ 5615, "D1F8F5B0-130C-46E1-B346-C16C5D2C6088", 5615, 1435599444, "710753", 1435599444, "710753", null, "2006-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "820.63", "745.92", "750.88", "676.03", "667.28", "696.93", "668.33", "787.84", "615.44", "694.78", "697.29" ]
+, [ 5616, "7A824CBF-5CEC-438D-8F73-C8E219347A62", 5616, 1435599444, "710753", 1435599444, "710753", null, "2006-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "810.53", "733.18", "750.57", "677.82", "666.39", "697.16", "669.46", "785.61", "619.78", "709.13", "694.58" ]
+, [ 5617, "A0B9FA2C-053A-405E-A04D-3228314FC1E3", 5617, 1435599444, "710753", 1435599444, "710753", null, "2006-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "820.94", "744.35", "750.57", "675.59", "668.49", "706.22", "667.61", "783.55", "621.81", "699.77", "705.73" ]
+, [ 5618, "4EA61C5A-0190-41C5-B761-53887DADF79F", 5618, 1435599444, "710753", 1435599444, "710753", null, "2006-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "824.64", "748.70", "750.35", "671.65", "666.57", "706.87", "662.60", "782.20", "628.00", "698.94", "702.60" ]
+, [ 5619, "8CA3CDFB-1A8C-425E-B454-64AA255588BA", 5619, 1435599444, "710753", 1435599444, "710753", null, "2006-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "809.03", "742.35", "753.77", "691.44", "671.62", "702.87", "678.54", "784.84", "627.40", "715.48", "707.28" ]
+, [ 5620, "D710E72B-4A40-4FFD-AE79-7845B8636127", 5620, 1435599444, "710753", 1435599444, "710753", null, "2006-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "817.47", "739.37", "750.98", "680.69", "666.76", "703.26", "675.41", "782.64", "608.19", "707.15", "707.14" ]
+, [ 5621, "7E43B66A-48FC-44D6-A98C-F1658270FEF0", 5621, 1435599444, "710753", 1435599444, "710753", null, "2006-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "817.20", "733.75", "754.22", "678.08", "666.59", "701.91", "677.12", "784.06", "607.28", "722.64", "701.03" ]
+, [ 5622, "4540C46A-58A3-4509-A3F8-DF86C9E202DF", 5622, 1435599444, "710753", 1435599444, "710753", null, "2006-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "827.29", "748.30", "757.15", "694.70", "680.08", "713.53", "675.86", "793.66", "625.31", "700.16", "710.12" ]
+, [ 5623, "7F99932B-DA47-41B4-BE28-FE46909C9A69", 5623, 1435599444, "710753", 1435599444, "710753", null, "2006-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "842.57", "751.64", "761.69", "692.35", "680.81", "713.90", "671.73", "796.44", "622.92", "704.99", "717.13" ]
+, [ 5624, "CB264143-D073-445D-936C-AE439DB10D36", 5624, 1435599444, "710753", 1435599444, "710753", null, "2006-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "822.22", "736.59", "760.42", "689.81", "687.34", "706.36", "677.32", "791.94", "630.17", "726.38", "705.60" ]
+, [ 5625, "3E51E44B-0FCF-43CD-9FB0-08A5AC0B91DC", 5625, 1435599444, "710753", 1435599444, "710753", null, "2006-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "845.36", "766.66", "773.45", "717.12", "698.05", "726.71", "686.59", "806.65", "647.11", "717.51", "726.55" ]
+, [ 5626, "FF942B08-06B3-4781-AF5F-CB24E45AA277", 5626, 1435599444, "710753", 1435599444, "710753", null, "2007-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "854.96", "762.68", "773.73", "707.73", "696.82", "729.26", "681.76", "807.77", "642.43", "714.54", "732.72" ]
+, [ 5627, "C52801CA-38C4-4E62-8250-37877C5D6CA7", 5627, 1435599444, "710753", 1435599444, "710753", null, "2007-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "853.84", "758.66", "776.53", "714.22", "700.51", "721.53", "685.84", "809.89", "645.75", "724.67", "732.27" ]
+, [ 5628, "F161F122-4638-474B-B0E0-B179D4DEDBB3", 5628, 1435599444, "710753", 1435599444, "710753", null, "2007-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "850.70", "759.08", "784.01", "724.61", "708.73", "731.68", "702.86", "816.33", "661.79", "741.70", "738.86" ]
+, [ 5629, "31DB9C5F-E95C-499B-B69C-C005452F86A1", 5629, 1435599444, "710753", 1435599444, "710753", null, "2007-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "857.63", "766.23", "781.52", "719.08", "703.84", "738.92", "689.61", "815.20", "648.19", "728.52", "733.57" ]
+, [ 5630, "23BA11D2-D51C-4E9C-8886-02D2C2175C66", 5630, 1435599444, "710753", 1435599444, "710753", null, "2007-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "849.73", "757.83", "784.79", "711.28", "709.09", "728.27", "701.21", "815.04", "645.08", "752.91", "734.84" ]
+, [ 5631, "ABF0652E-3385-42DB-B120-1F6E210F3853", 5631, 1435599444, "710753", 1435599444, "710753", null, "2007-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "874.78", "781.65", "792.83", "735.08", "709.27", "740.65", "706.09", "827.65", "644.68", "733.70", "754.63" ]
+, [ 5632, "063A9378-DA6E-4DE5-9908-47299CF0066D", 5632, 1435599444, "710753", 1435599444, "710753", null, "2007-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "878.76", "770.76", "788.23", "723.46", "699.33", "737.91", "693.87", "819.07", "625.36", "737.81", "746.20" ]
+, [ 5633, "15E43487-D939-47E8-BA34-1D7D174567E2", 5633, 1435599444, "710753", 1435599444, "710753", null, "2007-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "863.34", "761.89", "784.12", "723.55", "701.18", "727.78", "697.54", "814.41", "627.68", "741.36", "739.08" ]
+, [ 5634, "B633F4AD-C82A-4D90-8913-9652F0C650F9", 5634, 1435599444, "710753", 1435599444, "710753", null, "2007-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "889.34", "773.30", "790.83", "725.99", "706.19", "740.20", "688.71", "820.11", "637.27", "737.29", "761.11" ]
+, [ 5635, "D8087A10-6083-4B34-B482-153D1A7A6B4B", 5635, 1435599444, "710753", 1435599444, "710753", null, "2007-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "898.35", "777.97", "793.56", "732.68", "713.49", "743.79", "686.09", "823.31", "640.49", "734.54", "757.42" ]
+, [ 5636, "9F96EB56-C859-4A53-BD26-D810B7AD9F47", 5636, 1435599444, "710753", 1435599444, "710753", null, "2007-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "886.73", "778.59", "799.17", "739.94", "719.72", "741.63", "699.24", "830.69", "657.05", "748.61", "756.88" ]
+, [ 5637, "8AE19A34-6586-43C4-A130-EF3A0247E7EB", 5637, 1435599444, "710753", 1435599444, "710753", null, "2007-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "890.70", "782.80", "799.48", "736.98", "723.41", "741.36", "702.30", "828.37", "664.98", "746.40", "769.23" ]
+, [ 5638, "F9A4A504-1C0E-4163-98C7-C2DA43D82DC0", 5638, 1435599444, "710753", 1435599444, "710753", null, "2008-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "884.75", "769.03", "797.52", "727.19", "717.77", "741.54", "701.96", "829.96", "656.31", "749.64", "758.43" ]
+, [ 5639, "3A2DE791-DAD0-4D2C-AD3F-21EB4D6FE815", 5639, 1435599444, "710753", 1435599444, "710753", null, "2008-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "922.82", "794.93", "809.57", "752.05", "724.79", "751.24", "703.08", "844.43", "662.03", "735.04", "776.17" ]
+, [ 5640, "F9D51F98-D6EE-4003-A36D-09607F72B10F", 5640, 1435599444, "710753", 1435599444, "710753", null, "2008-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "919.04", "788.66", "808.43", "742.82", "721.88", "757.38", "703.61", "836.65", "657.41", "749.81", "774.82" ]
+, [ 5641, "BD6BA373-66A1-4EB6-86BA-B79E6F691568", 5641, 1435599444, "710753", 1435599444, "710753", null, "2008-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "916.76", "792.34", "810.42", "745.34", "722.86", "762.49", "707.55", "837.25", "664.16", "755.15", "781.84" ]
+, [ 5642, "F9DDDC38-346B-4FFC-B55D-63246A9203A9", 5642, 1435599444, "710753", 1435599444, "710753", null, "2008-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "899.01", "785.46", "806.89", "742.78", "726.55", "760.89", "714.59", "834.92", "669.08", "759.39", "769.62" ]
+, [ 5643, "95534D96-8060-452A-8A5F-CDBEA041611C", 5643, 1435599444, "710753", 1435599444, "710753", null, "2008-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "922.17", "792.15", "811.88", "745.33", "724.78", "765.74", "712.56", "842.92", "647.95", "750.63", "784.30" ]
+, [ 5644, "A1F4BC46-2AB7-49FC-A341-FC3631E889F8", 5644, 1435599444, "710753", 1435599444, "710753", null, "2008-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "905.63", "774.61", "807.36", "737.05", "733.85", "758.90", "720.38", "831.80", "654.23", "768.93", "773.56" ]
+, [ 5645, "BE8B3645-310A-4AE1-9519-7B3833716166", 5645, 1435599444, "710753", 1435599444, "710753", null, "2008-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "922.40", "793.14", "805.97", "746.93", "733.82", "770.91", "715.99", "833.26", "650.44", "736.34", "791.19" ]
+, [ 5646, "3952D978-C446-4534-A8D3-7E1CAC61E71B", 5646, 1435599444, "710753", 1435599444, "710753", null, "2008-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "945.23", "799.70", "813.15", "748.01", "732.90", "773.05", "713.48", "838.19", "649.94", "743.16", "796.66" ]
+, [ 5647, "258C8A4E-774F-494F-873E-FB3296BCBCD7", 5647, 1435599444, "710753", 1435599444, "710753", null, "2008-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "929.89", "791.18", "817.93", "749.84", "741.10", "774.91", "717.62", "845.80", "664.81", "762.61", "790.85" ]
+, [ 5648, "735C8BA5-D4F2-4F8E-BC9E-16EA93F8FB3C", 5648, 1435599444, "710753", 1435599444, "710753", null, "2008-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "952.59", "796.00", "818.72", "747.92", "738.73", "788.43", "716.72", "846.39", "664.67", "749.08", "797.31" ]
+, [ 5649, "0D0813A2-A6E2-41FE-9F24-55FC1D84818D", 5649, 1435599444, "710753", 1435599444, "710753", null, "2008-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "946.64", "789.85", "814.47", "757.94", "736.79", "780.99", "724.78", "837.50", "681.49", "749.77", "790.61" ]
+, [ 5650, "515E7663-F963-4A79-9C00-B9B32C8A071F", 5650, 1435599444, "710753", 1435599444, "710753", null, "2009-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "945.00", "792.58", "815.09", "763.32", "742.42", "775.89", "720.94", "842.29", "688.51", "741.62", "797.72" ]
+, [ 5651, "8E8BAE10-4FDC-4FF3-BF20-BD18D0F40985", 5651, 1435599444, "710753", 1435599444, "710753", null, "2009-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "963.38", "793.71", "824.64", "766.19", "745.60", "784.47", "727.75", "853.11", "699.09", "752.92", "797.78" ]
+, [ 5652, "6824E5F7-072D-4F16-9FC9-4045C8332E76", 5652, 1435599444, "710753", 1435599444, "710753", null, "2009-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "962.10", "798.70", "824.29", "768.18", "746.40", "799.76", "728.00", "851.62", "694.32", "751.39", "796.16" ]
+, [ 5653, "C54B7EA1-3950-4C03-8588-CAA638F7D9AB", 5653, 1435599444, "710753", 1435599444, "710753", null, "2009-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "935.00", "788.63", "817.56", "753.26", "741.42", "797.85", "728.52", "847.22", "696.95", "755.58", "783.11" ]
+, [ 5654, "6E1F0807-B98D-405E-8BDA-45F2E6327614", 5654, 1435599444, "710753", 1435599444, "710753", null, "2009-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "942.96", "794.39", "815.67", "753.14", "742.13", "805.45", "733.46", "840.15", "695.54", "750.67", "790.75" ]
+, [ 5655, "B55F4FFC-CEF0-4487-80C2-6D7B0C62152F", 5655, 1435599444, "710753", 1435599444, "710753", null, "2009-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "952.69", "793.85", "822.73", "762.49", "741.58", "798.01", "733.04", "845.78", "689.47", "766.27", "802.48" ]
+, [ 5656, "877B1A3A-AE27-4DCD-864B-21D2C4A739DD", 5656, 1435599444, "710753", 1435599444, "710753", null, "2009-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "940.03", "788.56", "819.08", "764.90", "756.55", "803.36", "728.98", "840.52", "686.50", "767.99", "792.20" ]
+, [ 5657, "11FC9444-8C33-40E8-ADF1-BF28FCD835BC", 5657, 1435599444, "710753", 1435599444, "710753", null, "2009-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "932.93", "785.32", "815.98", "759.85", "749.25", "789.07", "730.70", "841.15", "674.05", "761.01", "796.63" ]
+, [ 5658, "2E5AD0D7-474C-44BE-B796-B489243DF9EA", 5658, 1435599444, "710753", 1435599444, "710753", null, "2009-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "951.29", "797.21", "825.84", "775.83", "762.58", "799.43", "735.82", "850.76", "687.65", "764.06", "811.70" ]
+, [ 5659, "D6ADAC62-C07B-4EA6-BDF6-71B3834CE2D1", 5659, 1435599444, "710753", 1435599444, "710753", null, "2009-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "947.97", "803.06", "825.31", "778.88", "748.29", "812.18", "714.57", "851.96", "695.79", "760.59", "812.38" ]
+, [ 5660, "AC4CDF31-3665-41AA-935F-898EED6FB707", 5660, 1435599444, "710753", 1435599444, "710753", null, "2009-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "960.62", "797.56", "828.30", "766.44", "752.76", "822.36", "725.05", "856.30", "687.27", "762.12", "814.68" ]
+, [ 5661, "981442D7-99DD-4958-A2AA-A2E51628E49F", 5661, 1435599444, "710753", 1435599444, "710753", null, "2009-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "947.44", "809.36", "834.32", "767.55", "758.38", "820.61", "742.45", "865.50", "691.88", "767.77", "825.17" ]
+, [ 5662, "9A0F674D-3861-4B2E-B1FB-963D721E6E3B", 5662, 1435599444, "710753", 1435599444, "710753", null, "2010-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "961.69", "802.01", "833.23", "764.38", "755.16", "816.06", "737.71", "865.90", "677.03", "759.51", "832.46" ]
+, [ 5663, "C24DD627-F0A2-4A7A-94B5-2EE93A6F7B06", 5663, 1435599444, "710753", 1435599444, "710753", null, "2010-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "984.82", "812.78", "847.87", "776.32", "761.98", "837.14", "756.30", "882.54", "715.00", "770.93", "827.17" ]
+, [ 5664, "C34B42E1-D090-467C-88C0-605FF2C90E42", 5664, 1435599444, "710753", 1435599444, "710753", null, "2010-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "991.31", "814.25", "845.81", "772.40", "761.71", "836.21", "747.40", "875.16", "711.22", "770.79", "835.17" ]
+, [ 5665, "B3D0F107-EB2D-4C8C-8AA7-16D4FD96CB72", 5665, 1435599444, "710753", 1435599444, "710753", null, "2010-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "990.27", "814.64", "845.36", "772.82", "763.12", "836.03", "748.46", "871.83", "724.46", "775.21", "835.04" ]
+, [ 5666, "B2D72BE5-2D3C-47F4-B5B4-F67EE7024CB4", 5666, 1435599444, "710753", 1435599444, "710753", null, "2010-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "983.03", "817.80", "844.65", "770.62", "749.74", "830.15", "756.30", "869.84", "729.36", "779.82", "831.17" ]
+, [ 5667, "51E956A6-5428-4FCE-B38F-CE41779FA606", 5667, 1435599444, "710753", 1435599444, "710753", null, "2010-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "992.43", "810.73", "851.70", "777.77", "754.39", "836.27", "763.68", "877.90", "707.19", "791.92", "844.28" ]
+, [ 5668, "10617BBF-6B59-4024-86F6-0685E852CEC2", 5668, 1435599444, "710753", 1435599444, "710753", null, "2010-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "983.72", "818.63", "849.38", "780.06", "753.29", "826.95", "766.62", "877.27", "683.01", "784.63", "834.27" ]
+, [ 5669, "E336B15B-5BD2-40D4-9F45-C9E9F6D7766B", 5669, 1435599444, "710753", 1435599444, "710753", null, "2010-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "997.12", "817.24", "852.95", "779.57", "750.13", "834.42", "757.10", "882.11", "679.73", "784.93", "847.53" ]
+, [ 5670, "244B82F6-F74C-4202-8367-0A84493CD9D6", 5670, 1435599444, "710753", 1435599444, "710753", null, "2010-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "994.17", "819.94", "862.50", "787.00", "763.27", "844.44", "762.74", "898.03", "692.13", "795.99", "846.10" ]
+, [ 5671, "A5B62350-472C-46E9-9BF9-D40F9AC5282C", 5671, 1435599444, "710753", 1435599444, "710753", null, "2010-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1007.02", "830.21", "860.25", "795.67", "765.73", "836.01", "759.11", "886.04", "712.84", "789.55", "862.21" ]
+, [ 5672, "B43EF832-C359-443D-ABE9-506D66C2B11C", 5672, 1435599444, "710753", 1435599444, "710753", null, "2010-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1011.40", "824.79", "864.23", "789.56", "769.37", "849.03", "757.47", "891.88", "718.23", "797.76", "859.20" ]
+, [ 5673, "FE2E4B10-F917-47DC-976C-7F998256E6A5", 5673, 1435599444, "710753", 1435599444, "710753", null, "2010-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "994.73", "834.72", "868.07", "801.81", "778.68", "856.01", "778.99", "895.94", "732.23", "804.14", "860.52" ]
+, [ 5674, "E9CE2172-F34A-4197-9268-67F56E377FAD", 5674, 1435599444, "710753", 1435599444, "710753", null, "2011-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1030.23", "833.90", "871.06", "796.66", "784.91", "864.03", "755.24", "900.04", "717.14", "791.25", "881.43" ]
+, [ 5675, "7B12A0F2-DDFC-47E5-8536-C60C1AD609C1", 5675, 1435599444, "710753", 1435599444, "710753", null, "2011-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1042.48", "842.21", "877.32", "800.25", "785.16", "882.71", "760.68", "903.91", "718.23", "800.47", "859.99" ]
+, [ 5676, "27213EBD-90FC-4977-8B1B-C4B30E945E54", 5676, 1435599444, "710753", 1435599444, "710753", null, "2011-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1027.54", "831.42", "873.52", "797.22", "787.89", "879.89", "764.78", "900.66", "733.39", "802.88", "862.46" ]
+, [ 5677, "DA72DF6E-E207-4909-845C-C489159118C0", 5677, 1435599444, "710753", 1435599444, "710753", null, "2011-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1032.66", "842.27", "869.47", "799.87", "790.98", "873.17", "761.80", "889.91", "723.85", "793.53", "873.00" ]
+, [ 5678, "295B1713-6642-4144-945F-389614E14422", 5678, 1435599444, "710753", 1435599444, "710753", null, "2011-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1031.81", "844.69", "869.04", "800.12", "782.27", "869.87", "761.41", "889.35", "728.64", "796.45", "849.61" ]
+, [ 5679, "7AF4E650-D766-4D2F-910C-A18048B44947", 5679, 1435599444, "710753", 1435599444, "710753", null, "2011-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1024.12", "837.09", "871.32", "801.67", "776.84", "861.85", "773.11", "892.24", "714.54", "809.42", "851.75" ]
+, [ 5680, "5B00A40F-6F7C-4374-87B1-A14D37AD3D81", 5680, 1435599444, "710753", 1435599444, "710753", null, "2011-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1016.42", "828.60", "864.90", "799.38", "780.81", "872.43", "768.31", "882.32", "694.13", "804.26", "865.03" ]
+, [ 5681, "4E36F785-E3A8-43A5-8F00-8AEE855B53E9", 5681, 1435599444, "710753", 1435599444, "710753", null, "2011-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1040.53", "836.07", "867.68", "805.12", "779.72", "870.06", "765.45", "882.98", "695.93", "794.00", "883.31" ]
+, [ 5682, "E17E2A1D-A36F-471D-9CBE-F85C27E95567", 5682, 1435599444, "710753", 1435599444, "710753", null, "2011-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1026.41", "840.23", "869.71", "804.25", "789.36", "884.34", "755.59", "883.85", "722.29", "804.71", "897.27" ]
+, [ 5683, "73E7A4C4-5F04-4707-82AB-5E0CDB6CD098", 5683, 1435599444, "710753", 1435599444, "710753", null, "2011-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1051.14", "847.66", "882.05", "804.87", "795.26", "899.15", "760.34", "900.32", "718.82", "811.75", "891.84" ]
+, [ 5684, "EC514246-17FB-4C00-BEA9-A51E3B3E72AC", 5684, 1435599444, "710753", 1435599444, "710753", null, "2011-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1049.67", "847.63", "880.44", "801.77", "799.89", "891.23", "773.94", "893.90", "738.85", "813.94", "894.83" ]
+, [ 5685, "8BE52CE5-675B-4941-AB8B-F0C76066872A", 5685, 1435599444, "710753", 1435599444, "710753", null, "2011-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1036.98", "854.80", "883.91", "804.59", "794.52", "899.71", "780.79", "900.49", "734.86", "818.70", "891.22" ]
+, [ 5686, "F0664DB9-43B9-40F4-AEC1-2067BA535408", 5686, 1435599444, "710753", 1435599444, "710753", null, "2012-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1052.79", "858.34", "883.36", "815.75", "793.02", "905.48", "771.54", "900.85", "726.08", "800.62", "909.00" ]
+, [ 5687, "5330108A-D6EC-4592-ACD5-37C33AC31108", 5687, 1435599444, "710753", 1435599444, "710753", null, "2012-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1067.39", "861.64", "887.67", "805.09", "801.20", "912.50", "769.19", "901.14", "733.40", "809.70", "906.18" ]
+, [ 5688, "7CF4A7D8-FF62-4AF1-ABE3-CC8256DD0E91", 5688, 1435599444, "710753", 1435599444, "710753", null, "2012-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1058.46", "862.37", "890.00", "821.13", "807.70", "920.15", "777.65", "900.75", "756.80", "818.84", "911.63" ]
+, [ 5689, "26FC3C58-58E5-4878-8415-8EAA362B2675", 5689, 1435599444, "710753", 1435599444, "710753", null, "2012-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1060.70", "861.49", "888.88", "813.30", "806.78", "927.87", "776.37", "903.08", "735.01", "812.53", "902.61" ]
+, [ 5690, "935C3BF3-D160-4014-AC08-E0ADFC440539", 5690, 1435599444, "710753", 1435599444, "710753", null, "2012-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1040.93", "851.32", "887.88", "809.88", "806.65", "916.01", "789.90", "899.30", "756.25", "831.37", "896.36" ]
+, [ 5691, "FA8781DD-3857-479F-B167-E9B189BDE337", 5691, 1435599444, "710753", 1435599444, "710753", null, "2012-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1063.52", "870.97", "894.78", "827.63", "810.46", "920.49", "792.77", "912.51", "753.98", "810.39", "914.58" ]
+, [ 5692, "988892D9-FC24-4F91-A2F9-F03BC2210C20", 5692, 1435599444, "710753", 1435599444, "710753", null, "2012-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1074.05", "868.29", "896.94", "823.78", "805.55", "934.76", "790.05", "908.46", "724.34", "820.59", "926.99" ]
+, [ 5693, "B3271B82-FE8D-4C1B-9991-CFA3D1571B4C", 5693, 1435599444, "710753", 1435599444, "710753", null, "2012-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1080.71", "859.92", "899.43", "833.05", "808.42", "940.65", "792.79", "903.50", "720.63", "836.06", "932.18" ]
+, [ 5694, "533B5792-2260-4620-BF6A-F5BED9A27524", 5694, 1435599444, "710753", 1435599444, "710753", null, "2012-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1081.71", "864.42", "898.60", "833.79", "805.12", "937.27", "793.77", "904.57", "728.82", "829.48", "927.79" ]
+, [ 5695, "569E79EE-639D-47F3-AD9C-BDFA801F3E07", 5695, 1435599444, "710753", 1435599444, "710753", null, "2012-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1096.41", "871.42", "903.29", "830.94", "813.12", "935.94", "789.91", "908.84", "726.81", "830.44", "931.35" ]
+, [ 5696, "6D9686F2-5DA8-456E-BA2B-7CA682010419", 5696, 1435599444, "710753", 1435599444, "710753", null, "2012-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1080.35", "872.63", "903.67", "824.67", "810.50", "932.00", "804.97", "910.42", "750.13", "837.72", "923.00" ]
+, [ 5697, "F97C3E95-AC6A-4539-A483-28E040565E24", 5697, 1435599444, "710753", 1435599444, "710753", null, "2012-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1088.62", "880.23", "908.37", "835.86", "810.92", "933.54", "807.32", "917.85", "753.02", "832.68", "933.32" ]
+, [ 5698, "9D12219E-9D5F-4748-8D27-611696A876B6", 5698, 1435599444, "710753", 1435599444, "710753", null, "2013-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1069.35", "861.75", "898.44", "821.84", "801.75", "934.45", "783.89", "913.98", "738.67", "823.66", "923.96" ]
+, [ 5699, "79BDCDF0-F30D-4590-9EE0-2039C59725E9", 5699, 1435599444, "710753", 1435599444, "710753", null, "2013-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1113.51", "881.20", "911.76", "815.61", "800.38", "952.15", "786.92", "922.47", "744.10", "826.54", "952.18" ]
+, [ 5700, "9D357A47-1446-4480-A689-C44D5C9584D8", 5700, 1435599444, "710753", 1435599444, "710753", null, "2013-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1105.64", "871.75", "905.22", "828.59", "793.96", "945.22", "785.75", "919.57", "761.85", "810.72", "953.97" ]
+, [ 5701, "94C0CC73-F7B5-4897-B541-7FF4AB1BF994", 5701, 1435599444, "710753", 1435599444, "710753", null, "2013-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1103.68", "873.50", "905.41", "821.34", "799.96", "946.36", "786.58", "914.38", "756.39", "824.85", "936.01" ]
+, [ 5702, "B58B635B-E2EE-45A8-9F4F-6568E68B9C8C", 5702, 1435599444, "710753", 1435599444, "710753", null, "2013-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1098.46", "876.40", "910.56", "814.72", "808.09", "940.26", "800.56", "918.32", "769.83", "841.69", "934.64" ]
+, [ 5703, "378CFFC8-4EC2-4366-B8FB-5CC173888992", 5703, 1435599444, "710753", 1435599444, "710753", null, "2013-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1097.71", "867.77", "911.94", "829.29", "809.50", "940.35", "803.66", "923.97", "755.63", "838.91", "948.34" ]
+, [ 5704, "5DD47F1F-78B5-448A-9BEC-19127963538A", 5704, 1435599444, "710753", 1435599444, "710753", null, "2013-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1099.53", "864.68", "906.82", "823.32", "799.99", "948.79", "808.55", "913.87", "738.70", "833.95", "946.31" ]
+, [ 5705, "CA3B5289-591D-42C7-B6EF-3287C29A36AA", 5705, 1435599444, "710753", 1435599444, "710753", null, "2013-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1093.14", "863.94", "907.30", "824.74", "801.43", "951.96", "802.88", "918.64", "736.48", "832.60", "942.20" ]
+, [ 5706, "8EDD7604-8740-4052-9DE5-2EE7C6B6D564", 5706, 1435599444, "710753", 1435599444, "710753", null, "2013-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1114.87", "869.32", "907.86", "821.79", "789.91", "955.14", "795.15", "912.23", "746.35", "832.54", "941.82" ]
+, [ 5707, "2B3F433E-87A4-46C4-B2C7-A813C7DD78CD", 5707, 1435599444, "710753", 1435599444, "710753", null, "2013-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1118.79", "867.56", "916.45", "822.38", "805.09", "966.96", "797.84", "921.12", "751.10", "851.45", "943.92" ]
+, [ 5708, "44FBD655-4B28-4250-9423-4C262834650A", 5708, 1435599444, "710753", 1435599444, "710753", null, "2013-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1137.21", "895.89", "922.36", "842.09", "824.87", "973.45", "806.92", "929.25", "757.00", "827.17", "958.33" ]
+, [ 5709, "491A22A7-3DBF-4CE9-B45E-F19FF09302B3", 5709, 1435599444, "710753", 1435599444, "710753", null, "2013-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1143.70", "898.29", "930.28", "864.26", "819.70", "972.75", "808.43", "933.53", "777.15", "844.09", "964.53" ]
+, [ 5710, "E4D70593-64BB-4FAE-8110-28E48B4B8397", 5710, 1435599444, "710753", 1435599444, "710753", null, "2014-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1115.88", "884.83", "920.18", "841.64", "807.50", "958.16", "801.59", "932.48", "770.86", "834.47", "941.24" ]
+, [ 5711, "8FE8E2A2-4381-4908-A386-4DEF1B4AD59B", 5711, 1435599444, "710753", 1435599444, "710753", null, "2014-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1147.69", "898.03", "933.15", "851.82", "823.19", "978.49", "813.83", "942.00", "770.26", "838.35", "970.05" ]
+, [ 5712, "B2999934-6E32-4839-9B37-ABED77B2C716", 5712, 1435599444, "710753", 1435599444, "710753", null, "2014-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1155.43", "898.10", "930.78", "855.63", "812.96", "983.21", "809.56", "934.52", "774.89", "836.34", "967.05" ]
+, [ 5713, "60B9A0AD-EC32-4838-82BC-D57C2BDD4ABC", 5713, 1435599444, "710753", 1435599444, "710753", null, "2014-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1147.73", "895.40", "931.12", "857.99", "831.93", "989.21", "817.48", "932.63", "779.90", "842.97", "975.60" ]
+, [ 5714, "0AE29FF3-CDD5-4F6E-91FA-89E5F0129CA8", 5714, 1435599444, "710753", 1435599444, "710753", null, "2014-05-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1134.33", "896.84", "932.72", "852.31", "834.73", "990.50", "827.56", "935.16", "773.62", "856.27", "958.68" ]
+, [ 5715, "BA6F0115-912C-4CF5-9C56-A4457AC14AF4", 5715, 1435599444, "710753", 1435599444, "710753", null, "2014-06-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1151.22", "888.03", "938.57", "867.75", "834.85", "996.14", "830.24", "943.52", "783.76", "857.08", "980.26" ]
+, [ 5716, "3BF02973-49DB-4DC5-AFA2-1A0A04C9DD48", 5716, 1435599444, "710753", 1435599444, "710753", null, "2014-07-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1138.21", "879.23", "939.30", "860.36", "842.70", "995.46", "830.68", "942.26", "757.95", "874.71", "978.14" ]
+, [ 5717, "02FFB60F-7DF1-46E5-AFD4-78EB2CD0E167", 5717, 1435599444, "710753", 1435599444, "710753", null, "2014-08-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1155.68", "897.90", "935.22", "875.09", "826.67", "985.76", "822.27", "936.16", "759.39", "843.54", "984.13" ]
+, [ 5718, "BC94046F-7D6D-4C17-9F37-2930D05A282B", 5718, 1435599444, "710753", 1435599444, "710753", null, "2014-09-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1159.89", "896.29", "934.74", "869.33", "836.43", "997.27", "811.21", "935.30", "757.86", "842.92", "979.19" ]
+, [ 5719, "03C8E1BF-4097-44F8-BBE7-EED2E44E3913", 5719, 1435599444, "710753", 1435599444, "710753", null, "2014-10-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1163.69", "901.86", "940.68", "872.41", "838.49", "1001.57", "820.12", "936.71", "774.24", "858.82", "984.95" ]
+, [ 5720, "8456038A-24AE-4EAC-ACEB-FEE4836B9BD1", 5720, 1435599444, "710753", 1435599444, "710753", null, "2014-11-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1160.77", "902.69", "937.83", "862.07", "838.71", "1007.37", "816.48", "938.67", "782.53", "844.51", "992.31" ]
+, [ 5721, "929B44CE-29DA-42D8-B7C3-C87C70D4C383", 5721, 1435599444, "710753", 1435599444, "710753", null, "2014-12-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1159.60", "904.11", "948.40", "886.94", "856.35", "1006.98", "836.76", "950.38", "803.66", "862.12", "991.30" ]
+, [ 5722, "F8CF4AB6-378A-4075-8BE7-6195EE417848", 5722, 1435599444, "710753", 1435599444, "710753", null, "2015-01-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1158.79", "911.57", "944.98", "875.17", "842.03", "1007.20", "830.52", "951.10", "794.39", "846.73", "982.60" ]
+, [ 5723, "F7A31164-A7FE-467F-A9F7-8A06954FB391", 5723, 1435599444, "710753", 1435599444, "710753", null, "2015-02-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1176.32", "919.20", "957.80", "873.35", "854.39", "1015.85", "829.09", "969.17", "792.26", "857.53", "991.21" ]
+, [ 5724, "58A68982-BF09-4DA2-9C86-094D9F52BB8F", 5724, 1435599444, "710753", 1435599444, "710753", null, "2015-03-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1173.23", "911.73", "956.50", "865.29", "848.22", "1022.75", "823.01", "968.75", "800.10", "861.10", "988.79" ]
+, [ 5725, "21789CE9-CD5C-4B1F-BAFF-B3D7C45E6F25", 5725, 1435599444, "710753", 1435599444, "710753", null, "2015-04-01T00:00:00", "Industrial aggregate excluding unclassified businesses", "1150.61", "899.15", "954.70", "864.69", "864.81", "1019.61", "835.31", "964.80", "809.92", "881.27", "977.35" ]
+ ]
+}
