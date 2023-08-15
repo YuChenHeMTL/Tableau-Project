@@ -26,6 +26,7 @@ Analyse the trend of the housing market over time and compare the housing market
 
 
 ## Results
+Tableau Public Link: https://public.tableau.com/app/profile/yuchen.he8057/viz/TableauProject_16921245913280/HousePriceDifferencevsEarningDifference?publish=yes
 - Trend of house prices across Canada in the last 40 years
 ![Housing Price Trend](./charts/House%20Price%20Trend.png)
 - Trend of house prices after 2005 with actual benchmark prices 
